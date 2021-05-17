@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return <div>         
-         <span className='header'>🖖 HUB AE NERD 🖖</span>
+         <span onClick={()=>window.scroll(0 , 0)} className='header'>🖖 HUB AE NERD 🖖</span>
           </div>
     
 };
